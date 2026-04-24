@@ -1,0 +1,14 @@
+cumulative-bioinformatics-algorithm-ml-deployment/
+├── data/
+│   └── penguins_processed.csv    # Source: Palmer Penguins Dataset
+├── scripts/
+│   ├── algorithm_tests.py        # Sorting and timing
+│   ├── model_training.py         # Regression, Classification, Clustering
+├── app/
+│   ├── app.py                    # Flask API
+│   └── model.pkl                 # Saved Random Forest Model
+├── results/
+│   ├── metrics.txt               # Accuracy, Precision, Recall
+│   └── clustering_insight.png    # Visualization
+├── README.md                     # Dataset source and setup
+└── final_report.pdf              # The 4-page documentation
